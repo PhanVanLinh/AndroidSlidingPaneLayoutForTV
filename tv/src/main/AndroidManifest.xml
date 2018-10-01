@@ -15,14 +15,17 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning,MissingTvBanner">
         <activity
-            android:name=".MainActivity"
+            android:name=".normalslidemenu.MainActivity"
             android:banner="@drawable/app_icon_your_company"
             android:icon="@drawable/app_icon_your_company"
             android:label="@string/app_name"
             android:logo="@drawable/app_icon_your_company"
             android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".slidemenuwithrecycler.SlideMenuWithRecyclerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

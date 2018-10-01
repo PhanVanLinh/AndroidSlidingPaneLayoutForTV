@@ -12,14 +12,15 @@
  * the License.
  */
 
-package vn.linh.androidslidingpanelayout;
+package vn.linh.androidslidingpanelayout.normalslidemenu;
 
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.View;
-import vn.linh.androidslidingpanelayout.fragment.Fragment1;
+import vn.linh.androidslidingpanelayout.R;
+import vn.linh.androidslidingpanelayout.normalslidemenu.fragment.Fragment1;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         replace();
     }

@@ -1,4 +1,4 @@
-package vn.linh.androidslidingpanelayout.fragment;
+package vn.linh.androidslidingpanelayout.normalslidemenu.fragment;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
